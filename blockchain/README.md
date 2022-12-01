@@ -1,13 +1,14 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic twitter functionalities use case. 
+We only have made the backend with basic CRUD operations.
+We have written our unit test cases in twitterContract.test.js
+Contract is persent in contracts named TwitterContract.sol.
+Contract is deployed on Goerli network.
 
-Try running some of the following tasks:
+
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts\deploy.js --network goerli
+npm run test
 ```
